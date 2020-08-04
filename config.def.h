@@ -10,7 +10,8 @@ static char *cookiefile     = "~/.surf/cookies.txt";
 static SearchEngine searchengines[] = {
     { "g",    "https://www.google.com/search?q=%s"             },
     { "ji",   "https://jisho.org/search/%s"                    },
-    { "aw",   "https://wiki.archlinux.org/index.php?search=%s" }
+    { "aw",   "https://wiki.archlinux.org/index.php?search=%s" },
+    { "s",    "https://searx.danieliu.xyz/?q=%s"               }
 };
 
 /* Webkit default features */
